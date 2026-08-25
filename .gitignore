@@ -1,0 +1,4 @@
+target/
+verify/out/
+verify/single/
+config.properties

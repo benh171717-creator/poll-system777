@@ -1,0 +1,15 @@
+# העתיקו קובץ זה ל-config.properties ומלאו את הערכים,
+# או פשוט הפעילו את התוכנית ומלאו אותם בחלון ההגדרות שייפתח.
+
+telegram.bot.token=123456789:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+telegram.bot.username=my_survey_bot
+
+# אופציונלי - נדרש רק ליצירת שאלות אוטומטית באמצעות ChatGPT
+openai.api.key=
+openai.model=gpt-4o-mini
+
+# Chat-completions endpoint. Default is the official ChatGPT API.
+# Any OpenAI-compatible service works, for example:
+#   Google Gemini: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions  (model: gemini-2.0-flash)
+#   Groq:          https://api.groq.com/openai/v1/chat/completions                           (model: llama-3.3-70b-versatile)
+openai.base.url=https://api.openai.com/v1/chat/completions
